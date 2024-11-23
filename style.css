@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+header{
+    text-align: center;
+}
+header img{
+    width: 8rem;
+}
+
+#cabecalhoHome h1{
+    margin: 5px 0;
+    font-family: 'Geist Mono';
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+#cabecalhoHome {
+    background-color: white; 
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+#cabecalhoConteudo {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#mlForm label{
+    font-family: 'Geist Mono';
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#mlForm  input{
+    border-radius: 20px;
+    border: 0;
+    background-color: rgba(199, 196, 189, 0.397);
+    padding: 8px 20px;
+}
+
+#mlForm button{
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid  rgb(0, 166, 255);
+    font-family: 'Geist Mono';
+    color: rgb(0, 166, 255);
+    font-weight: 600;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('hopper-bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#tab-2 button {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid  rgb(0, 166, 255);
+    font-family: 'Geist Mono';
+    color: rgb(0, 166, 255);
+    font-weight: 600;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
+
+#mlForm button:hover{
+    background-color: rgb(0, 166, 255);
+    color: white;
+}
+
+#tab-2 button:hover{
+    background-color: rgb(0, 166, 255);
+    color: white;
+}
+
+#tabs {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /* Optional: Set a width if needed */
+    width: 100%;
+  }
